@@ -1,0 +1,64 @@
+@font-face{
+    font-family: "Flaviotte";
+    src: url(fonts/Flaviotte.otf);
+}
+@font-face{
+    font-family: La Obrige;
+    src: url(fonts/LaObrige.otf);
+
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    border:none;
+    outline:none;
+    font-family: 'Playfair Display'
+
+}
+html{
+    font-size:62.5%;
+
+}
+body{
+    width:100%;
+    height:100vh;
+    overflow-x:hidden;
+    background-color:white;
+    color:black;
+    padding:10px;
+}
+
+header{
+    margin: top 20px;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 1rem 9%;
+    background-color:white;
+    filter: drop-shadow(10px);
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index:100;
+    
+}
+
+.logo{
+    font-size:30px;
+    color:black;
+    font-family: "La Obrige";
+    font-weight:800;
+    cursor:pointer;
+    transition:0.5s;
+
+}
+
+img{
+    height:500px;
+    widht:1000px;
+}
