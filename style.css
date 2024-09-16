@@ -38,7 +38,7 @@ header{
     top:0;
     left:0;
     width:100%;
-    padding: 1rem 9%;
+    padding: 10px;
     background-color:white;
     filter: drop-shadow(10px);
     display:flex;
@@ -54,11 +54,24 @@ header{
     font-family: "La Obrige";
     font-weight:800;
     cursor:pointer;
-    transition:0.5s;
+    transition:0.7s;
 
+}
+.logo:hover{
+    transform: scale(1.1);
 }
 
 img{
     height:500px;
-    widht:1000px;
+    width:1000px;
 }
+nav a{
+    font-size: 10px;
+    color: rgb(2, 2, 67);
+    margin-left:5px;
+    font-weight:500;
+    transition:0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover
