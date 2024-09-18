@@ -1,0 +1,28 @@
+body{
+    background-color: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.portfolio {
+    padding: 20rem 9%;
+    text-align: center;
+}
+
+.portfolio-home{
+
+}
+
+
+.portfolio p {
+    font-size: 1.6rem;
+    margin-top: 5rem;
+}
+.uber-intro{
+    padding: 20px;
+}
+
+.portfolio img{
+    height: 480px;
+    width: 732px;
+}
