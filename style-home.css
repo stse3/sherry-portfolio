@@ -82,7 +82,8 @@ span{
 
 }
 .btn:hover{
-    background-color: rgb(172, 194, 224);
+    background-color: rgb(233, 242, 254);
+    box-shadow: 0 0 25px rgb(224, 221, 255);
 }
 
 .portfolio {
