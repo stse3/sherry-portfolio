@@ -41,7 +41,7 @@ body{
     padding-top:50px;
     padding-left:0px;
     padding-right:0px;
-    padding-bottom:10px;
+    padding-bottom:30px;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -49,16 +49,31 @@ body{
     align-items: flex-start;
     gap:10px;
 }
+
 .big-container-2{
     padding-top:50px;
-    padding-left:0px;
-    padding-right:0px;
+    padding:20px;
     padding-bottom:10px;
-    margin: 0;
+    margin: 50px 100px  0px  0px;
     display:flex;
     flex-direction:column;
     justify-content: center;
+    background-color: rgb(245, 245, 245);
+    width:850px;
+}
+.big-container-3 .container{
+    margin:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
 
+}
+.big-container-3{
+    margin-top:100px;
+    
+    
 }
 .solution{
     padding: 100px;
@@ -77,5 +92,37 @@ body{
 .big-container-3 img{
     height: 480px;
     width: 732px;
+    margin:50px;
+    transition: 2s ease;
+
 }
 
+.big-container-3 img:hover{
+    height: 528px;
+    width: 805.2px;
+    transition: 2s ease;
+}
+.big-container-3 .container{
+    margin: 10px;
+}
+
+.big-container-4{
+    display:flex;
+    flex-direction:row;
+
+
+}
+.side-container{
+    margin: 20px;
+}
+.big-container-5{
+    padding-top:50px;
+    padding:40px;
+    padding-bottom:40px;
+    margin: 50px 100px  0px  0px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: rgb(242, 243, 252);
+    width:850px;
+}
