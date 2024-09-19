@@ -6,23 +6,45 @@ body{
 
 .portfolio {
     padding: 20rem 9%;
-    text-align: center;
+
+    margin: 0;;
 }
 
-.portfolio-home{
 
+.uber-header{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
 }
-
 
 .portfolio p {
     font-size: 1.6rem;
-    margin-top: 5rem;
+    margin:0;
+    text-align:left;
 }
-.uber-intro{
-    padding: 20px;
+.big-container{
+    padding: 70px;
+    padding-left:0px;
+    padding-right:0px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
-
-.portfolio img{
+.solution{
+    padding: 100px;
+}
+.big-container img{
+    height: 180px; 
+    width: 500px;
+}
+.portfolio h2{
+    text-align:left;
+}
+.solution img{
     height: 480px;
     width: 732px;
 }
+

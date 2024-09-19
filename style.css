@@ -3,10 +3,16 @@
     src: url(fonts/Flaviotte.otf);
 }
 @font-face{
-    font-family: La Obrige;
+    font-family: "La Obrige";
     src: url(fonts/LaObrige.otf);
 
 }
+@font-face{
+    font-family:"Poppins";
+    src: url(fonts/Poppins-Regular.otf);
+}
+
+  
 
 *{
     margin:0;
@@ -15,7 +21,7 @@
     text-decoration:none;
     border:none;
     outline:none;
-    font-family: 'Playfair Display'
+    font-family: 'Poppins'
 
 }
 html{
@@ -84,6 +90,8 @@ h1{
 h2{
     font-size:30px;
     font-weight:200;
+    margin:0;
+    padding: 0px;
 }
 h3{
     font-size:20px;
